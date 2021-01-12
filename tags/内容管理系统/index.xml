@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>内容管理系统 on 移或移不动的互联网</title><link>http://blog.94smart.com/tags/%E5%86%85%E5%AE%B9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</link><description>Recent content in 内容管理系统 on 移或移不动的互联网</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 19 Mar 2008 11:16:59 +0000</lastBuildDate><atom:link href="http://blog.94smart.com/tags/%E5%86%85%E5%AE%B9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml"/><item><title>继续流水账：Wiki和协作、沟通</title><link>http://blog.94smart.com/posts/1230/</link><pubDate>Wed, 19 Mar 2008 11:16:59 +0000</pubDate><guid>http://blog.94smart.com/posts/1230/</guid><description>关于Wiki，水是这样流下来的：
+前传：对于Wiki和维基百科我是早有了解，05-06年的时候曾经先后用CooCooWakka和MediaWiki在94smart.com架过，基本都是玩两下就放弃了，当时好像是因为编写习惯和权限设置的问题。 去年11月开始看《维基经济学》，可能是因为个人口味不同，这本书读到今年也没读完，也不打算继续读下去了。 今年二月底公司开始培训新的内部办公工具（据说是EA内部使用很久的组合方式），其中之一就是用Wiki写工作报告，起先我很不理解曾在twitter上说：&amp;ldquo;有人听说过，用MediaWiki作公司内部报告系统的吗？&amp;quot;，言下之意相当的不屑。 在看了大BOSS写的快速入门后，在Wiki填充内容，从[[给文档加链接]]开始，起初不适应Wiki代码，网上搜索了很久也没找到合适的所见即所得编辑器，最后只好继续手写代码，还好后来习惯了。 我们需要把个人简历、联系方式及工作报告都填进去，就现在来看在Wiki里面写简历不是很舒服，所以我在Blog上写了个非公司版本的个人简历。 起先发现在Wiki里面的图片好像都不直接加外链，多数都是连图片描述页，也许是为了方便其他人补充说明或评论吧。 Wiki好像不是用来发布纯文本重复内容的工具吧？我认为内部链接才是Wiki的王道，能连接内部内容绝对不考虑外部链接。 使用Wiki一段时间，其间又看了些Wiki的相关资料，发现之前的部分理解有误，我很想收回之前说过的话，其实用Wiki进行工作报告是有实际意义的。 公司的内部办公工具主要由内容发布/知识库、邮件、文件版本控制及论坛组成，MediaWiki架设的Wiki主要负责工作记录/报告、内部事项通知、经验分享及岗位培训等内容发布。 Wiki的优点在于强调文档结构化，在内部关联上处理得很合适，且用户不需了解复杂的代码即可进行超文本内容编写，牺牲了部分灵活换来了相对容易的协作。 另外，Wiki可以作为Web版的文档版本管理工具，可以比对修改、恢复历史内容等。 Wiki的文档可以很开放，用来做知识库、新闻、个人资料、通讯录、Blog、Life Stream等都很合适，我现在就用Wiki来做网摘（并用ROR写了一个网摘的Wiki代码生成器）。 Wiki需要制定现实中的更新规范，比如谁可以编辑这里谁不行之类的。 最近总是听见公司同事喊：把某某事情写在Wiki里。我觉得Wiki还是作备忘吧，并不能代替直接、实时的沟通。 其实工具就是工具，不止是Wiki、CVS、SVN这些协作相关的，最后还是需要通过各种形式的直接沟通去解决冲突问题。 幻想一下，如果在Wiki监视的页面可以通过im提醒就好了，邮件提醒还是比较不及时。 我开始看好用Wiki进行内部网建设，因为贡献内容的用户可以非常多，基于工作原因大多数人都需要别人更好的协作、配合，所以贡献的内容可以比较靠谱。 …… 本流水账可以写完，多亏互联网有twitter的存在~ 还好有twitter，让我可以随时把想法发出来，不用憋很久憋成blog，也许憋到后来都忘光了、没感觉了；还要感谢twitter，因为它丢信息不是特别的频繁，让我可以找到之前记下的内容。
+Technorati : Wiki, 协作, 工作报告, 沟通, 知识库</description></item><item><title>小试Prototype：为静态文章列表加上标志</title><link>http://blog.94smart.com/posts/826/</link><pubDate>Wed, 26 Jul 2006 06:49:59 +0000</pubDate><guid>http://blog.94smart.com/posts/826/</guid><description>昨天，用Prototype.js解决了一个以前一直解决不了的问题，即静态文章列表加上New标志。
+工作上一直使用静态的CMS（内容发布系统），好处是发布的内容全部都有静态页面、唯一地址，访问速度也比较稳定，缺点是放弃了动态的效果，比如文章动态链接、列表更新等等，以及今天要说的根据文章发布时间给标题加New标志。
+原理是用Javascript分析列表代码里面带有时间的条目，时间是不是在时间限制之后，如果是，就在这个条目的时间代码段前面加上New的标志代码。
+首先对文章列表进行改造，发布系统生成，每篇文章都是一个，每个里面用包含标题，用来包含发布时间（还可以选择或其他标签，我特意选了不常用的），最外层用包含（看具体使用来定，也可以使用等），并增加ID属性。以下是列表的代码：
+` Javascript脚本部分，我设定的时间限制是前天0点，也就是说前天发的内容都会加上New的标志。shownew.js代码如下：
+`//shownew.js
+//email: 94smart(AT)gmail.com
+//url: http://blog.94smart.com
+var TheDay = new Date(); //初始化时间
+TheDay.setDate(TheDay.getDate()-2); //将时间设定为前天，看实际需要而定
+TheDay.setHours(0,0,0); //将时间设定为前天0点
+var newImage = &amp;lsquo;'; //New字样图片的代码
+function showNew(listId){ //参数listId是要处理列表的ID
+var thisList = $(listId).getElementsByTagName(&amp;lsquo;li&amp;rsquo;);
+var listArray = $A(thisList);
+listArray.each(function(listItem){
+theSamp = listItem.getElementsByTagName(&amp;lsquo;samp&amp;rsquo;); //取li里面的samp标签的内容
+theSamp = theSamp[0];
+theTime = theSamp.innerHTML; //得到文章的发布时间
+theTime = new Date(theTime.replace(/-/g, &amp;ldquo;/&amp;quot;)); //替换时间格式为yyyy/mm/dd h:m:s，如果正好是Javascript的时间格式就不需要这行
+if (theTime&amp;gt;=TheDay) {
+new Insertion.Before(theSamp, newImage); //如果发布时间比设定的时限晚就在samp标签前面插入New图片代码
+}
+});
+}`
+使用的时候在&amp;lt;head&amp;gt;区插入代码：&amp;lt;script src=&amp;quot;prototype.</description></item></channel></rss>

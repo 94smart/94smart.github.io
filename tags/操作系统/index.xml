@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>操作系统 on 移或移不动的互联网</title><link>http://blog.94smart.com/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link><description>Recent content in 操作系统 on 移或移不动的互联网</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 30 Jul 2006 16:47:09 +0000</lastBuildDate><atom:link href="http://blog.94smart.com/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml"/><item><title>寻求Win2000Pro版的帮助</title><link>http://blog.94smart.com/posts/832/</link><pubDate>Sun, 30 Jul 2006 16:47:09 +0000</pubDate><guid>http://blog.94smart.com/posts/832/</guid><description>有个Win2000Pro的故障，请知道的不吝赐教~
+今天回家打开电脑，用原来的用户名/密码登录Win2000，正常登录，但是发现我的桌面、我的文档、开始菜单、快捷菜单都不见了，取而代之的是一个新建用户的桌面。
+检查Documents and Settings的文件夹发现，原来的用户名文件夹还在，但是当前这个用户使用的是一个新文件夹：我的用户名是smart，原来的文件夹也是smart，但是现在新生成了一个smart.SMART的文件夹。
+不知道我说清楚了没有，这个问题很烦人，系统还是好好的，就是用户出现故障，我死活不知道原因。
+精通Windows的达人能告诉我怎么恢复吗？同时也想知道这是怎么搞的。
+Technorati : Win2000</description></item><item><title>慢讯 - 比尔·盖茨将离开微软</title><link>http://blog.94smart.com/posts/775/</link><pubDate>Fri, 16 Jun 2006 14:04:21 +0000</pubDate><guid>http://blog.94smart.com/posts/775/</guid><description>昨天的消息，确实够慢的，我今天看BetaNews才知道。
+消息称比尔·盖茨，微软的董事会主席及、首席软件设计师，计划将于两年内离开微软，同时将精力转向他和他妻子的基金会。
+Technorati : Bill Gates, Microsoft</description></item><item><title>Ubuntu传播模式浅析</title><link>http://blog.94smart.com/posts/573/</link><pubDate>Sun, 15 Jan 2006 15:04:00 +0000</pubDate><guid>http://blog.94smart.com/posts/573/</guid><description>先介绍一下，Ubuntu是一种Linux的发行版，包含了16000多种软件，将桌面需要的核心软件集成在一张CD盘上，同时适用于桌面系统和服务器。
+获得Ubuntu的方法很多，其中一种是免费邮寄光盘，需要说明的是，只要写明目的，Ubuntu是不会限制邮寄数量的。还有，可以从已经收到光盘的人（尤其是多索取光盘的人）那里获得，自己觉得好用才会送给朋友用。
+接着来谈谈我对这种传播模式的看法：
+首先，感觉Ubuntu的这种传播方式很不便宜，每个用户可以不限制数量的获得Ubuntu光盘，这就需要一大笔行销费用，还有因为是免费邮寄，不只是光盘的成本，还要承担邮寄的费用。
+其次，这是病毒营销的又一个例子，上一个应该是Gmail的邀请，Ubuntu为什么不限制免费邮寄的数量？不是因为他们钱多烧的，而是他们知道口碑传播会形成良性循环，送得越多，传播也就越广。
+再次，这是一次文化融入的营销，它将自由软件的精神通过实际行动得到广泛传播。
+所以我最佩服的是它的这条说明：
+Ubuntu完全忠于自由开源软件的发展，我们鼓励人们使用自由开源软件，改进它和继续传递它。（中文解释来自Ubuntu中文）
+英文原话：Ubuntu is entirely committed to the principles of free software development; we encourage people to use free and open source software, improve it and pass it on.
+最后，这种模式在国内可能不会成功，原因就不多说了。
+ok，来个煞尾，我没有技术去改进它，所以我要继续传递它，Ubuntu，一个不错的Linux系统。
+Technorati : Linux, Ubuntu, 传播</description></item></channel></rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NewSite on 移或移不动的互联网</title><link>http://blog.94smart.com/tags/newsite/</link><description>Recent content in NewSite on 移或移不动的互联网</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 26 Nov 2007 10:37:30 +0000</lastBuildDate><atom:link href="http://blog.94smart.com/tags/newsite/index.xml" rel="self" type="application/rss+xml"/><item><title>研究笔记：美味汤Soup.io的分享体系</title><link>http://blog.94smart.com/posts/1219/</link><pubDate>Mon, 26 Nov 2007 10:37:30 +0000</pubDate><guid>http://blog.94smart.com/posts/1219/</guid><description>美味汤Soup.io我是今天才知道的网站，之所以叫她美味汤是因为她本身提供文字、引用摘要、链接、图片及视频发布外，还可以融入很多不同类的包括美味书签del.icio.us、twitter、flickr、digg、youtube等流行的元素，她这样的特性让我想起了已经被G.F.W掉的Vox。（p.s.说到Vox，我还是挺喜欢用的，可惜被墙了:( ） 和Vox有一些相似点：
+都以分享、展示为主要目的。 都可以聚合（混合）其他应用的数据元素，比如flickr、youtube等。 自选显示界面模板 当然Soup.io跟Vox并不是一类的应用（放在一起说纯粹是因为我的个人爱好），她有自己的特点：
+Soup.io定位为剪贴板，可以贴出非常丰富的页面。 她无需注册，即可发布分享内容、导入内容。 p.s.分享的时候快一点永远是令人喜欢的，其实就是开一个匿名帐号（或公共帐户），这算是一个不错的引子，当你试用后觉得好用的话可以通过快速入口注册成正式用户。 发布内容包括文字、引用摘要、链接、图片及视频，给我的感觉Soup.io更倾向于视觉上的分享，音乐和其他文件并不在主要分享范围内。 导入更加开放，可融入更多的元素，比如包括twitter和jaiku在内的几种微网志内容、美味书签del.icio.us的网摘、在Ebay的（商品）信息、Vox的更新内容等等，如果还觉得不够，可以直接使用RSS格式导入其他内容。 自定义界面，包括字体、字号、前景背景颜色等，还可以修改CSS。 现阶段Soup.io有些部分还很薄弱：
+Soup.io有好友系统，但并没有分享权限的设置。p.s.也许分享就应该是广博的。 也许是以展示用户自己分享信息为主，好友的分享信息没有很好地体现出来。 暂时没有可以和桌面互动的方法，我没听说她如Twitter一样有众多IM和客户端作为发布工具，也没有Pownce那种功能性十足且够眩的Air客户端。 最后补充一张图，暂时记录这么多，更深入的有待我去整理。 p.s.我并不喜欢网间传播Soup.io的时候，用瘦皮猴这个名字，不够形象。 **Update1：**soup.io的IO意在输入输出，好多人把他定义为Life Streaming还是挺合适的。 **Update2：**上传文件存储在自己的服务器上，这样未来的发展瓶颈可能会出现在文件服务器的负载上，为啥不学习Pownce和Twitter把文件上传到S3之类的服务器上呢？
+Technorati : MicroBlogging, Pownce, RSS, Vox, soup.io, twitter, 分享体系, 微网志, 美味汤, 聚合</description></item><item><title>Vox，有前途的Space</title><link>http://blog.94smart.com/posts/947/</link><pubDate>Mon, 06 Nov 2006 04:07:50 +0000</pubDate><guid>http://blog.94smart.com/posts/947/</guid><description>知道Vox还是挺早的，那时候还是内部测试期需要邀请，我也就留了个Gmail地址，但是迟迟没有收到邀请。
+上周看到飞猪写已经在Vox安家了，而且还挺好用的。于是跑到Vox去注册，飞猪Blog上说需要邀请，我怀着侥幸心理去试了一下，还真被我撞上了，不用邀请也可注册，Nice~
+试了一下，最初的感觉我以为是一个跟Live Space差不多的个人空间，玩一会儿才发现这个东西实在太棒了，除了Six Apart出色的Blog功能，还可以将Flickr的图片、Youtube的视频和Amazon的图书等等全搬进来，我试了一下，5分钟就拼出了一个内容丰富的个人空间。
+除此之外，还有每日问答（QotD）、简单多样的页面模板都让我感觉不错。其他功能我就不太感兴趣了，应该还有不少细节需要后面接着去挖掘。
+Vox的优点：
+简单实用的Blog功能 评论融入Digg要素 与Flickr等体验类似的交友选项 使用API实现的资源共享，并可以在Blog里方便调用 Tag索引的内容聚合 促进用户互动的每日问答（QotD） 符合用户习惯的UI设计 …… Vox的缺点：
+收藏的资源不能被其他用户直接导入，例如书籍，就没有我也想读这样的选项 界面样式不能进行自定义，虽然是高级用户才需要，但没有就说不过去了 Blog API的支持不完备，不能被Blog客户端自动发现，至少Performancing和Zoundry都不行 加为友邻的信息只有电子邮箱里有，网站上居然没有？！ …… 总的来讲VOX还是不错的，推荐喜欢Space类的朋友去安家~
+我在Vox的窝：http://i94smart.vox.com，欢迎朋友们加我。
+Technorati : Blog, Space, VOX</description></item><item><title>大蒜瓣及频道外包</title><link>http://blog.94smart.com/posts/807/</link><pubDate>Wed, 12 Jul 2006 04:31:00 +0000</pubDate><guid>http://blog.94smart.com/posts/807/</guid><description>昨天零零发在Gtalk上给我发来了这个网站，大蒜瓣，一个做下载频道外包的网站。
+怎么外包呢？前提是得有域名的解析权（可以对2级域名作单独解析的），然后想提供下载服务但是苦于没有精力更新，或者没有足够的空间来存放，或者没有足够的下载流量支持等等。
+大蒜瓣提供以上情况的外包解决方案，放什么软件由你来选择，系统自动帮你更新，显示模板由你来设定，存储空间和下载流量也不是问题，用P2P软件来解决下载。
+简单说下流程：先去注册一个用户，而且必须填备案号，通过模板自定义一个网站界面，自定义下载软件的类型，自己设定一个给下载频道用的2级域名，然后将其解析到大蒜瓣的域名服务器上，OK，现在大功告成，访问一下看看，自己的下载频道上线了~
+这个服务还是不错的，不过依然有几个难点：
+2级域名解析，解析很麻烦（或者说我很懒），大蒜瓣如果同时提供与用户名一致的2级域名就更好了 备案号，不填就删除信息，完全理解他们要规避风险的用意，但要是境外注册的域名怎么办？没备案的怎么办？ P2P下载方式，llf说暂时不会流氓，但用BT或eMule会不会更让用户习惯？或者用迅雷这种P2SP的下载软件 在当今国内的互联网，网站频道外包其实很有潜力，就拿微软的MSN中国来说，来到国内凭频道外包迅速架起了一个门户网站，同时养富了多少网站（MOP算不算？）？
+大蒜瓣正看中了频道外包的这部分价值，切入软件下载频道外包服务，盈利模式应该是广告和P2P软件用户增值服务，在这个P2P下载火热的时代，应该会有一定的发展。
+现在是软件下载频道外包，过两天会不会有音乐、读书以及新闻等等频道外包服务呢？持有相应资源的网站会不会利用这些资源呢？现在看来可能还是未知数~
+Technorati : download, outsourcing, p2p</description></item><item><title>Netscape，又一个杀手现身</title><link>http://blog.94smart.com/posts/773/</link><pubDate>Thu, 15 Jun 2006 07:32:23 +0000</pubDate><guid>http://blog.94smart.com/posts/773/</guid><description>最近AOL的WEB产品经常被PR冠以杀手的称号，像之前的AIM page就被说成是MySpace杀手，这次又来了个Digg杀手。
+这个杀手，就是重新上线的Netscape.com，不过这次它被贴上Beta的标签，做起了News 2.0。大概看了一下，做得像极了Digg，是一个挺Web2.0的新闻网站。
+不过其传统网站形态还是有迹可寻的，像网友推上来的内容有些会有编辑进行回复，而且很多新的内容就直接被推到首页，我估计很多内容都是编辑推上来的，或者设计的时候做成默认推荐内容之类的，这个也许是他们的特色，我就不知道了。
+还有最突出的一点是Digg没有的，就是扑天盖地的广告。
+不多说了，看看截图吧：
+或者直接去看看，网址http://www.beta.netscape.com
+Technorati : Beta, Digg, Netscape, News, WebDesign</description></item><item><title>以世界杯的名义，将Web2.0进行到底</title><link>http://blog.94smart.com/posts/763/</link><pubDate>Fri, 09 Jun 2006 07:54:37 +0000</pubDate><guid>http://blog.94smart.com/posts/763/</guid><description>这个夏天，是四年一轮回的足球季节，连我这个伪球迷都兴奋不已。
+那除了可以感受世界杯足球的气氛，我们还能干什么？我不说了，怕被别人鄙视。
+推荐一个相关网站，fo.reca.st，一个世界杯主题的社区网站，主要提供比分预测、讨论组等服务，比较贴心的是，可以根据所喜爱的球队来更换页面的主题配色。
+这个网站不大，但是感觉挺好的，如果你喜欢世界杯又喜欢上网，可以去看看没准会找到很多与你观点一致的网友。需要提醒的是：所有预测、会员注册都截止到美国东部时间6月9日17点。
+还有一个值得推荐的是E准，提供电视节目播出提醒、共享列表等服务，也挺合适，可以设定一个世界杯比赛日程表，随时提醒你想看的比赛要开始了，不过邮件提醒有点来不及，短信提醒还不错。
+好了，别的不多说了，让我们今天开始享受世界杯及其带来的附加体验吧~
+p.s.最近与足球、世界杯有关的网站真是数不胜数，有大有小，看得我眼花缭乱。他们各自的推广也挺不同的，像新浪居然把体育频道链接直接指向世界杯专题。
+Technorati : World Cup, fo.reca.st, sns</description></item><item><title>美味书签和Delicious Soup</title><link>http://blog.94smart.com/posts/716/</link><pubDate>Sat, 06 May 2006 07:45:15 +0000</pubDate><guid>http://blog.94smart.com/posts/716/</guid><description>从阿修那里看到的，Delicious Soup，有意思的Tag图，使用del.icio.us的API取得Tag绘制而成，Flash的，组织方式让我感觉像是PersonalBrain。
+操作很简单，只要去这里，然后输入del.icio.us的用户名和密码（推荐使用下面的安全链接），然后点击Cook，你的美味Tag汤就做好了。
+看看我的：
+Technorati : Del.icio.us, Delicious Soup, Tag</description></item><item><title>toread，用Email做文摘</title><link>http://blog.94smart.com/posts/689/</link><pubDate>Thu, 13 Apr 2006 15:54:26 +0000</pubDate><guid>http://blog.94smart.com/posts/689/</guid><description>toread，一个使用Email做网摘的网站，使用它提供的Bookmarklet可以瞬间把页面内容发送到你的邮箱，然后你可以用收信软件把内容下载下来保存。
+总体感觉干净，快捷。缺点是没有了Del.icio.us的分享特性。
+起先在lifehacker.com上面看到了，没提起太大兴趣，后来在iThink的Blog又看到了，这次介绍的角度不同，因为iThink提到了Gmail，嘿，想到能把它和Gmail的Label过滤配合起来用真是太棒了，赶紧在Gmail里加了一个2read的Label，以后就可以直接将一些网页资料收藏到Gmail Space里面保存了，cool~
+操作真的很简单，填邮箱注册，点确认信里的链接，将Bookmarklet加入收藏夹，以后想摘页面就可以直接用Bookmarklet操作。插一句，我使用FireFox的Bookmarklet越来越多，也越顺手，感觉比用IE下面的舒服太多了。
+最后，发现其实不是toread多么的有创意，而是Google让这变得可能，现在也更加的佩服Google。
+p.s.Google昨天发布的中文名感觉并不理想，但是也可以接受。
+Technorati : Gmail, toread</description></item></channel></rss>

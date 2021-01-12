@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>语言 on 移或移不动的互联网</title><link>http://blog.94smart.com/tags/%E8%AF%AD%E8%A8%80/</link><description>Recent content in 语言 on 移或移不动的互联网</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 26 May 2006 09:15:12 +0000</lastBuildDate><atom:link href="http://blog.94smart.com/tags/%E8%AF%AD%E8%A8%80/index.xml" rel="self" type="application/rss+xml"/><item><title>接着讲Flickr的八卦</title><link>http://blog.94smart.com/posts/744/</link><pubDate>Fri, 26 May 2006 09:15:12 +0000</pubDate><guid>http://blog.94smart.com/posts/744/</guid><description>去年七月份因为Flickr的一次当机，了解到他们的程序使用PHP+PEAR开发，还小小的感慨一下。
+前两天，顺着DBA的Flickr 的开发者的 Web 应用优化技巧，找到了Cal Henderson写的Serving JavaScript Fast，又让我窥探到Flickr的些些技术内幕，Flickr用的模板居然是SMARTY，这个之前普遍被人诟病的模板系统。
+不是说SMARTY不好，而是太好了，更像一种新的语言，我记得当时用PHP的普遍不喜欢语法复杂的SMARTY，嘿嘿，虽然技术不行但我也是其中之一，到现在还在用PHP Template，感觉好像是挺落后的。
+不过，通过这篇文章同时也看到，Flickr技术大牛跟我这样的菜鸟有着巨巨巨巨巨……大的差别，就是他们用适合项目的技术，自己去优化程序语言的执行效率，我用对自己来说是简单的代码，效率问题只能听天由命了。
+我觉得这好像也从侧面验证了Yahoo收购Flickr的必然，PHP之父在Yahoo，所以Yahoo有经过特别优化的PHP引擎，Flickr人用自己优化的服务器、脚本，同时使用的也是PHP，不知道这样说合适不合适，PHP的应用导致Yahoo一定收购技术相类似的、可以方便接入的Flickr。
+So，扯远点说，用PHP的网络应用更容易被Yahoo收购。有人肯定会说：!$#%%$^%&amp;amp;$%&amp;amp;%^$#%%$^%&amp;amp;$%&amp;amp;%^&amp;amp;*&amp;amp;&amp;amp;*$#%%$^%&amp;amp;$%&amp;amp;%^&amp;amp;*&amp;amp;&amp;amp;^*&amp;amp;^*(*
+最近就有个改了版的Feedsky，抛弃微软架构及ASP.net，改去拥抱Linux和PHP，快乐，他们快了。
+Technorati : Flickr, PHP, SMARTY</description></item><item><title>今日流水账 - 令人激动的Rails</title><link>http://blog.94smart.com/posts/435/</link><pubDate>Thu, 20 Oct 2005 19:29:56 +0000</pubDate><guid>http://blog.94smart.com/posts/435/</guid><description>上次激动应该是为了AJAX，为了他的实现方式，一种用户友好的方式。
+自打前天看过Ruby on Rails的演示视频，我就又激动起来了。
+这次是为了Rails的高速开发而激动，我以前一直没有发现有一门语言，或者是一个平台能如此简化开发过程，让项目开发人员可以把主要心思放在项目逻辑设计上，去充分发挥自己的想象力。
+Ruby on Rails是一门专为开发Web应用的轻量级Framework，使用MVC模式。
+本来只想随便看看，没想到看过后还不过瘾，手痒的厉害，于是按照视频指引，一步一步做了个简单的数据存储项目。感觉太棒了，他在设计上广泛使用了约定俗成的习惯，处处体现他设计原则中的“习惯约定优于配置”。
+据说他和AJAX的配合很好，我还没有试用，不敢妄下断言，但是光看Basecamp, Backpack, 43 Things, Ta-da List的展示就可见一斑。
+推荐对Web开发有兴趣的朋友去试试，没准可以找回以前对PHP的清新感觉~</description></item><item><title>最近两周都在尝试改变</title><link>http://blog.94smart.com/posts/84/</link><pubDate>Sun, 27 Feb 2005 11:03:15 +0000</pubDate><guid>http://blog.94smart.com/posts/84/</guid><description>在页面设计方面我正在尝试改变，主要的变化就是设计的简单、实用、易用。 最近看了两本书：《WEB可用性设计》《专业主页设计技术》，都是尼尔森写的，国内前几年翻译的，翻译得还可以。 书里写的设计规则可以长期使用，并不会因为早了3、4年就过时了。 还有，页面布局方面，我现在也转向XHTML+CSS2了，虽然有些困难但是还是想逐渐靠向Web Standard。</description></item></channel></rss>

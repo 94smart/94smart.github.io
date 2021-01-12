@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BBS on 移或移不动的互联网</title><link>http://blog.94smart.com/tags/bbs/</link><description>Recent content in BBS on 移或移不动的互联网</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 10 Apr 2007 16:08:49 +0000</lastBuildDate><atom:link href="http://blog.94smart.com/tags/bbs/index.xml" rel="self" type="application/rss+xml"/><item><title>昨日收集 - 所谓用户感受</title><link>http://blog.94smart.com/posts/1143/</link><pubDate>Tue, 10 Apr 2007 16:08:49 +0000</pubDate><guid>http://blog.94smart.com/posts/1143/</guid><description>2007-4-10
+所谓用户感受 - 张锐 - DonewsBlog 防沉迷系统 新媒体的社会学研究取向 - It Talks 企业透明才容易做大- 王冉 - 新浪BLOG FeedBurner和SEO 世界上第一个BBS到底诞生在1978年还是1979年？ 流程 - It Talks 从客气集sogua联盟说起 - 哈斯日志</description></item><item><title>胡扯一下论坛与社区</title><link>http://blog.94smart.com/posts/979/</link><pubDate>Wed, 29 Nov 2006 15:49:00 +0000</pubDate><guid>http://blog.94smart.com/posts/979/</guid><description>最近看麦田又开始说社区了，这次说的是贴吧（1，2），从使用流程、管理权限、用户需求、推广等方面入手说明用户为什么用贴吧，看完很有感觉，也来小小扯一下论坛有关的。
+论坛属于最基本的社区功能，但并不是孤立的，在社区里论坛相当于骨架，可以很容易结合个人空间、交友等其他功能。
+其实论坛有多种形态，包括常规论坛、讨论区、贴吧等。常规论坛是最基本的，板块内容、结构是由站方管理员控制的；讨论区一般是由所附的产品、兴趣、问题等发起的特殊论坛，管理权限介于站方管理员与高级用户之间；贴吧相对自由，可以由用户自行创建、管理，所以从这点讲，贴吧最Web2.0了，看上去也最UGC了。
+这些形态都是论坛发展的阶段产物，同时也是论坛逐渐开放的结果，对于用户来说就是管理权限从网站经营者向用户逐渐移交，但这些形态又不互相排斥，并不是一个存在另外两个就消失，而是可以同时存在的，为不同的需求去服务。
+而且如果用流行Web2.0理论来说，论坛从头到尾，且不管现在有多少形态，它一直是Web2.0、是UGC。
+……
+发现越写越乱，还是尽早收笔，还有些没写的以后再补吧。
+Technorati : UGC, 社区, 论坛</description></item><item><title>无奈：本信息不需回复</title><link>http://blog.94smart.com/posts/923/</link><pubDate>Mon, 16 Oct 2006 03:13:28 +0000</pubDate><guid>http://blog.94smart.com/posts/923/</guid><description>以下事情真实发生在我们公司的论坛，搞得我们的管理人员哭笑不得的。事情是这样的：
+论坛用户注册完成后，第一次登录会收到欢迎注册的站内消息。这条消息里没有什么特别的说明，只说了&amp;quot;欢迎注册本论坛&amp;quot;，以及一些诸如论坛FAQ、最新活动的链接。奇怪的事情来了，每次都有好多人回复这条消息，而且变成了一个普遍行为，即每批新注册的用户大多会回复这条消息，回复内容多数是&amp;quot;知道了&amp;quot;、&amp;ldquo;谢谢&amp;rdquo;、&amp;ldquo;好的&amp;quot;什么的。
+这个普遍行为让我们很迷惑，是不是该消息有些字眼让用户产生了下意识的回复动作呢？于是乎，决定对该信息进行以下修改：
+将所有疑问句全部改成陈述句； 把所有可能引起用户回复的词都换掉； 在标题和消息正文里增加&amp;quot;本信息不需回复&amp;rdquo;。 这样修改后有一段时间相安无事，但是随着注册用户的增加，这个问题又出现了，回复的内容还是&amp;quot;知道了&amp;quot;、&amp;ldquo;谢谢&amp;rdquo;、&amp;ldquo;好的&amp;quot;什么的，好像用户的行为不曾有过改变，哦不，表述不正确，应该是不同用户的行为是如此的相似。对于每个新用户来说，理论上讲他都是第一次接触这个论坛，都是第一次读到这条消息，并不存在对这个论坛操作的惯性思维，但是对这条消息的反应为什么出奇的相似呢，真是百思不得其解。
+从头想一遍，管理人员要发布论坛FAQ及活动链接这没错，用户看到后回复也没错，最后只好归结为系统设计问题，为什么会让用户回复不需要回复的消息呢？对于不需要回复的消息，&amp;ldquo;回复消息&amp;quot;的按钮是不是不应该显示呢？
+最后的解决办法是为管理人员增加一个公告类消息，用户看到后根本不能回复，这就解决了困扰一段时间的小问题，像这种小问题如果在系统搭建之初就想好是不是省掉很多事情？
+p.s.经常收到这样的手机短信，开头写着&amp;quot;本信息不需回复&amp;rdquo;，我一般都直接删除，因为大多数根本就没有看下去的想法，但是据做无线的朋友说，这种短信每次都有人回复，说这奇不奇怪？不知道移动运营商对这个问题烦不烦？
+Technorati : BBS, SMS, comment, reply</description></item><item><title>今日流水账 - Donews的大日子</title><link>http://blog.94smart.com/posts/539/</link><pubDate>Wed, 28 Dec 2005 23:35:39 +0000</pubDate><guid>http://blog.94smart.com/posts/539/</guid><description>今天不是Donews的大日子，过两天是，猫扑（？！）以100%换股方式并购Donews，陈一舟已经确认了。 2005年真是一个娱乐年，年初娱乐的盛大收购新闻的新浪，年终娱乐的猫扑收购了IT的Donews，中间还有一堆娱乐事件，无可置疑，国内互联网已经被娱乐占领了。 Donews也将商业化了，即使大多数人都认为Donews不会商业化。其实挺矛盾的，如果不商业化现有服务可能会得不到保障，但是商业化后会有很多缺失，有点牵强的类比，Donews会不会变成另一个Bokee？ 年初盛大收购新浪的时候，Keso大哥说：
+无论如何，我还是认为，新浪被盛大控股是中国互联网的悲哀，这个感觉就像Playboy控股了《纽约时报》。
+今天，Keso大哥说：
+无论是什么，我们总得活下去，在这个最好也是最坏的时代，活下去。未来总会比现在好，所以我们都愿意硬撑着让自己看一眼未来。
+不知道Donews的网友们都作何感想。 我只希望Donews不会变味，希望365key速度更快。
+Technorati : donews, mop</description></item></channel></rss>
