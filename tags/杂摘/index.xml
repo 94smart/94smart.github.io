@@ -1,1 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>杂摘 on 移或移不动的互联网</title><link>/tags/%E6%9D%82%E6%91%98/</link><description>Recent content in 杂摘 on 移或移不动的互联网</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 08 Feb 2021 17:59:55 +0800</lastBuildDate><atom:link href="/tags/%E6%9D%82%E6%91%98/index.xml" rel="self" type="application/rss+xml"/><item><title>杂摘20210208</title><link>/posts/2021/02/2021-02-08/</link><pubDate>Mon, 08 Feb 2021 17:59:55 +0800</pubDate><guid>/posts/2021/02/2021-02-08/</guid><description>看看今天的网摘就可以知道，我每天看的内容到底有多杂，问题是我还乐此不疲～ wttr.in挺好玩的 网摘 为套出PS5国行发售时间，这场索尼专访拉扯</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>杂摘 on 移或移不动的互联网</title><link>/tags/%E6%9D%82%E6%91%98/</link><description>Recent content in 杂摘 on 移或移不动的互联网</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 08 Feb 2021 17:59:55 +0800</lastBuildDate><atom:link href="/tags/%E6%9D%82%E6%91%98/index.xml" rel="self" type="application/rss+xml"/><item><title>杂摘20210208</title><link>/posts/2021/02/2021-02-08/</link><pubDate>Mon, 08 Feb 2021 17:59:55 +0800</pubDate><guid>/posts/2021/02/2021-02-08/</guid><description>&lt;ul>
+&lt;li>看看今天的网摘就可以知道，我每天看的内容到底有多杂，问题是我还乐此不疲～&lt;/li>
+&lt;li>wttr.in挺好玩的&lt;/li>
+&lt;/ul>
+&lt;h3 id="网摘">网摘&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.huxiu.com/article/408033.html">为套出PS5国行发售时间，这场索尼专访拉扯了13天-虎嗅网&lt;/a>
+&lt;ul>
+&lt;li>话音甫落，能明显感觉到屏幕另一边江口达雄略有迟疑，但他还是诚恳的回答道：“我们会尽最大努力在2021财年第一季度2021年4月至6月间）发售国行PS5产品，目前还有一些准备工作需要完成，还请大家再耐心等待一下，非常感谢！”&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://www.williamlong.info/archives/6338.html">我看人人影视事件的根本问题-月光博客&lt;/a>
+&lt;ul>
+&lt;li>引入国外文化产品这件事，中国也在做，但是速度慢，偶尔还会开开倒车。在引入速度上，引入海外影视剧版权的周期长、耗费大，相较于全球每年影视出品的数量，通过正版渠道引进的影视作品数量并不多，境外影视剧的引入必须整季内容先审再播，所以海外影视剧内容难免内容有所删减、时效则往往落后很长时间。同时，普通用户也无法登录各个海外流媒体平台观看想要的内容。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://www.huxiu.com/article/408938.html">“云原生”是怎么兴起的？-虎嗅网&lt;/a>
+&lt;ul>
+&lt;li>Pivotal的CTO Matt Stine就是在这种背景下开始于2013年宣传云原生这个概念的。当然，屁股决定脑袋。&lt;/li>
+&lt;li>他所说的云原生技术就是：&lt;/li>
+&lt;li>
+&lt;ol>
+&lt;li>微服务技术（暗指Spring）&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>微服务程序设计方法（暗指他推崇的Heroku使用的微服务应用开发技巧，Heroku也是用的Pivotal开源的这套。Heroku就是在2010年被Salesforce收购作为Salesforce的应用开发PaaS平台的。）&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="3">
+&lt;li>持续集成（暗指Cloud Foundry）&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="4">
+&lt;li>敏捷基础设施（暗指VMWare的vSphere）&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,1 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>app on 移或移不动的互联网</title><link>/tags/app/</link><description>Recent content in app on 移或移不动的互联网</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 15 Dec 2021 17:20:59 +0800</lastBuildDate><atom:link href="/tags/app/index.xml" rel="self" type="application/rss+xml"/><item><title>一个记账软件崩溃带来的疑问</title><link>/posts/2021/12/2021-12-15/</link><pubDate>Wed, 15 Dec 2021 17:20:59 +0800</pubDate><guid>/posts/2021/12/2021-12-15/</guid><description>好久没写什么了，就写点最近的纯随笔吧： 今年早些时候，少数派商店促销的时候买了 MoneyWiz 3 Mac 版的标准买断版（也就是非 MAS 版），结果这周一的时候发现用不了</description></item><item><title>关于订阅制，我有些不太成熟的想法</title><link>/posts/2021/11/2021-11-08/</link><pubDate>Mon, 08 Nov 2021 15:41:13 +0800</pubDate><guid>/posts/2021/11/2021-11-08/</guid><description>来自我用过的 app 和工具软件的转订阅经历： 不止一次的夸赞 最理想的订阅制转换是 Sketch，过期后当前版本可以一直用，相当于是花钱买一段时间的软件</description></item><item><title>周五碎碎念20210219</title><link>/posts/2021/02/2021-02-19/</link><pubDate>Fri, 19 Feb 2021 16:28:59 +0800</pubDate><guid>/posts/2021/02/2021-02-19/</guid><description>不少 AI 的科技树好像点歪了，什么都想让 AI 去做也不管适不适合，也许这就是所谓的科技发达后遗症。 突然觉得我不需要 GTD 工具（比如 Things），提醒有</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>App on 移或移不动的互联网</title><link>/tags/app/</link><description>Recent content in App on 移或移不动的互联网</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 15 Dec 2021 17:20:59 +0800</lastBuildDate><atom:link href="/tags/app/index.xml" rel="self" type="application/rss+xml"/><item><title>一个记账软件崩溃带来的疑问</title><link>/posts/2021/12/2021-12-15/</link><pubDate>Wed, 15 Dec 2021 17:20:59 +0800</pubDate><guid>/posts/2021/12/2021-12-15/</guid><description>&lt;p>好久没写什么了，就写点最近的纯随笔吧：&lt;/p>
+&lt;ul>
+&lt;li>今年早些时候，少数派商店促销的时候买了 MoneyWiz 3 Mac 版的标准买断版（也就是非 MAS 版），结果这周一的时候发现用不了了（提示应用程序无法打开），原来以为是自己胡搞瞎搞、操作不当、把文件搞坏了，于是试图从多个途径（官方网站、少数派商店、网搜结果、Setapp、Homebrew等）下载软件重新安装，结果就是除了 Setapp 其他途径的文件都启动不了。
+&lt;ul>
+&lt;li>后续 1，看到官方支持网站有个提示：“If you have MoneyWiz 3 and it stopped working, please download it from the App Store and sign into your sync account. ”于是跑去美服 Mac App Store 安装后同步才恢复正常使用。&lt;/li>
+&lt;li>后续 2，用官方支持网站提问并说明国内 MAS 上没有 MoneyWiz 3，收到的回复是有一句提到了很抱歉暂时无法在国内上架，后面一大篇都是说可以用 MoneyWiz 2021、肯定能用 blahblah、有多么好用 blahblah、现在用还有折扣……&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>我不想恶意揣测原因，但还是产生了很多疑问：
+&lt;ul>
+&lt;li>付费软件一个版本出现了问题，开发者不应该去修正更新吗？一味推销订阅制版本是几个意思？&lt;/li>
+&lt;li>是不是应该去找个什么替代它了？&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>关于订阅制，我有些不太成熟的想法</title><link>/posts/2021/11/2021-11-08/</link><pubDate>Mon, 08 Nov 2021 15:41:13 +0800</pubDate><guid>/posts/2021/11/2021-11-08/</guid><description>&lt;p>来自我用过的 app 和工具软件的转订阅经历：&lt;/p>
+&lt;ul>
+&lt;li>不止一次的夸赞 &lt;strong>最理想的订阅制转换是 Sketch&lt;/strong>，过期后当前版本可以一直用，相当于是花钱买一段时间的软件升级权限，再次付费后又可以继续升级到最新版，可以跨大版本和小版本。
+&lt;ul>
+&lt;li>完美结合付费买断和订阅，对后续功能有需要就回去更新，然后保持稳定使用，没有更吸引的功能就先不付费更新&lt;/li>
+&lt;li>后续：还在用，&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Ulysses 是把买断制换成了订阅天数，过期后无法继续使用
+&lt;ul>
+&lt;li>后续：迁移到了 Bear&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Notability 也是上述思路，赠送一年订阅期，之后则需要再次付费订阅
+&lt;ul>
+&lt;li>11月1日更新：发现老用户疯狂 diss 于是就改为之前付过费的功能都能使用，更多的功能需要订阅才能解锁&lt;/li>
+&lt;li>后续：买了 GoodNotes 5&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>对订阅制的不成熟片面想法：&lt;/p></description></item><item><title>周五碎碎念20210219</title><link>/posts/2021/02/2021-02-19/</link><pubDate>Fri, 19 Feb 2021 16:28:59 +0800</pubDate><guid>/posts/2021/02/2021-02-19/</guid><description>&lt;ul>
+&lt;li>不少 AI 的科技树好像点歪了，什么都想让 AI 去做也不管适不适合，也许这就是所谓的科技发达后遗症。&lt;/li>
+&lt;li>突然觉得我不需要 GTD 工具（比如 Things），提醒有系统自带的提醒事项和日历，总觉得使用场景也越来越少&lt;/li>
+&lt;li>春节假期的时候想临时在手机上编辑一些文字，最终用的是 Taio 和自带的备忘录，笔记和日记软件懒得打开，于是成功地卸载了几个用不太上的 app&lt;/li>
+&lt;li>春节前后做了好多续费，还有些服务和 app 没想好要不要续费：服务费没办法，app 最好还是一次性买断，订阅制太郁闷。&lt;/li>
+&lt;li>之前预约的数字人民币红包没能中签，昨天还看某公众号的吹嘘，不如踏实看看周小川的讲解。&lt;/li>
+&lt;/ul>
+&lt;h3 id="网摘">网摘&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.chaindd.com/3498726.html">周小川：数字时代的中国支付体系现代化——DC/EP与数字人民币&lt;/a>
+&lt;ul>
+&lt;li>在中国，移动支付人群占总人口的比重已经比较高了，2020年将近60%。移动支付占各种电子支付（也就是以往的大额小额支付体系、信用卡等所有的电子支付加在一起）的比重目前已经占到15%左右。再有，就是2019年移动支付占个人消费支出的比重超过了60%。&lt;/li>
+&lt;li>DC/EP的开发思路和目前较流行的CBDC不完全一样，它不是CBDC概念体系里的一个分支。
+&lt;ul>
+&lt;li>首先要指出的是，第二层机构实际上拥有数字人民币的所有权以及可支付的保证，同时他也拥有这个系统、技术和设备。&lt;/li>
+&lt;li>第二，央行可通过多种手段来确保数字人民币的币值稳定。&lt;/li>
+&lt;li>第三，央行和第二层商业机构间不必然是简单的批发-零售关系。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

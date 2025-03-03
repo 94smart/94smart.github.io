@@ -1,1 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HTML5 on 移或移不动的互联网</title><link>/tags/HTML5/</link><description>Recent content in HTML5 on 移或移不动的互联网</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 16 Feb 2012 13:40:07 +0000</lastBuildDate><atom:link href="/tags/HTML5/index.xml" rel="self" type="application/rss+xml"/><item><title>页面制作，不，是前端</title><link>/posts/2012/02/1567/</link><pubDate>Thu, 16 Feb 2012 13:40:07 +0000</pubDate><guid>/posts/2012/02/1567/</guid><description>多少年过去了，做网站还是得靠页面制作，不管是CSS还是JS，现在还得搞HTML5，只是职位改叫前端了； 用CSS+JS代码完成针对屏幕尺寸的页</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HTML5 on 移或移不动的互联网</title><link>/tags/HTML5/</link><description>Recent content in HTML5 on 移或移不动的互联网</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 16 Feb 2012 13:40:07 +0000</lastBuildDate><atom:link href="/tags/HTML5/index.xml" rel="self" type="application/rss+xml"/><item><title>页面制作，不，是前端</title><link>/posts/2012/02/1567/</link><pubDate>Thu, 16 Feb 2012 13:40:07 +0000</pubDate><guid>/posts/2012/02/1567/</guid><description>&lt;ul>
+&lt;li>多少年过去了，做网站还是得靠页面制作，不管是CSS还是JS，现在还得搞HTML5，只是职位改叫前端了；&lt;/li>
+&lt;li>用CSS+JS代码完成针对屏幕尺寸的页面适配叫响应式设计了，前端更成了很多产品的命根子；&lt;/li>
+&lt;li>原来以为WAP网页WML、2.0暂时用不着JS了，结果Jquery Mobile之类的来了，说：移动互联网我们也能动起来；&lt;/li>
+&lt;li>现在有了PhoneGap和钛，用HTML5+JS就能搞手机应用了；&lt;/li>
+&lt;li>现在有Node.js之类的，可以用服务器端运行JS搞些东西了；&lt;/li>
+&lt;li>很多时候设计师还是只能望代码兴叹，最后也得逼自己学这学那的；&lt;/li>
+&lt;li>Javascript语法成了更有发展的玩意，这不仅讽刺而且夸张，但如果你是技术或设计，不懂一点JS，还真不好意思说自己是做网站的。&lt;/li>
+&lt;/ul>
+&lt;p>注：本人所在公司正在招移动广告的前端互动设计，懂HTML5和CSS、熟练使用jquery(及mobile)制作动画效果，能为移动版页面做好页面适配就行，有意者可以发邮件到我@gmail的邮箱：94smart。&lt;/p></description></item></channel></rss>

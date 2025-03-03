@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>知识库 on 移或移不动的互联网</title><link>/tags/%E7%9F%A5%E8%AF%86%E5%BA%93/</link><description>Recent content in 知识库 on 移或移不动的互联网</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 19 Mar 2008 11:16:59 +0000</lastBuildDate><atom:link href="/tags/%E7%9F%A5%E8%AF%86%E5%BA%93/index.xml" rel="self" type="application/rss+xml"/><item><title>继续流水账：Wiki和协作、沟通</title><link>/posts/2008/03/1230/</link><pubDate>Wed, 19 Mar 2008 11:16:59 +0000</pubDate><guid>/posts/2008/03/1230/</guid><description>关于Wiki，水是这样流下来的： 前传：对于Wiki和维基百科我是早有了解，05-06年的时候曾经先后用CooCooWakka和MediaWi</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>知识库 on 移或移不动的互联网</title><link>/tags/%E7%9F%A5%E8%AF%86%E5%BA%93/</link><description>Recent content in 知识库 on 移或移不动的互联网</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 19 Mar 2008 11:16:59 +0000</lastBuildDate><atom:link href="/tags/%E7%9F%A5%E8%AF%86%E5%BA%93/index.xml" rel="self" type="application/rss+xml"/><item><title>继续流水账：Wiki和协作、沟通</title><link>/posts/2008/03/1230/</link><pubDate>Wed, 19 Mar 2008 11:16:59 +0000</pubDate><guid>/posts/2008/03/1230/</guid><description>&lt;p>关于Wiki，水是这样流下来的：&lt;/p>
+&lt;ol>
+&lt;li>前传：对于Wiki和维基百科我是早有了解，05-06年的时候曾经先后用CooCooWakka和MediaWiki在94smart.com架过，基本都是玩两下就放弃了，当时好像是因为编写习惯和权限设置的问题。&lt;/li>
+&lt;li>去年11月开始看《维基经济学》，可能是因为个人口味不同，这本书读到今年也没读完，也不打算继续读下去了。&lt;/li>
+&lt;li>今年二月底公司开始培训新的内部办公工具（据说是EA内部使用很久的组合方式），其中之一就是用Wiki写工作报告，起先我很不理解曾在twitter上说：&amp;ldquo;有人听说过，用MediaWiki作公司内部报告系统的吗？&amp;quot;，言下之意相当的不屑。&lt;/li>
+&lt;li>在看了大BOSS写的快速入门后，在Wiki填充内容，从[[给文档加链接]]开始，起初不适应Wiki代码，网上搜索了很久也没找到合适的所见即所得编辑器，最后只好继续手写代码，还好后来习惯了。&lt;/li>
+&lt;li>我们需要把个人简历、联系方式及工作报告都填进去，就现在来看在Wiki里面写简历不是很舒服，所以我在Blog上写了个&lt;a href="http://blog.94smart.com/cache/2008/0311_1228.html">非公司版本的个人简历&lt;/a>。&lt;/li>
+&lt;li>起先发现在Wiki里面的图片好像都不直接加外链，多数都是连图片描述页，也许是为了方便其他人补充说明或评论吧。&lt;/li>
+&lt;li>Wiki好像不是用来发布纯文本重复内容的工具吧？我认为内部链接才是Wiki的王道，能连接内部内容绝对不考虑外部链接。&lt;/li>
+&lt;li>使用Wiki一段时间，其间又看了些Wiki的相关资料，发现之前的部分理解有误，我很想收回之前说过的话，其实用Wiki进行工作报告是有实际意义的。&lt;/li>
+&lt;li>公司的内部办公工具主要由内容发布/知识库、邮件、文件版本控制及论坛组成，MediaWiki架设的Wiki主要负责工作记录/报告、内部事项通知、经验分享及岗位培训等内容发布。&lt;/li>
+&lt;li>Wiki的优点在于强调文档结构化，在内部关联上处理得很合适，且用户不需了解复杂的代码即可进行超文本内容编写，牺牲了部分灵活换来了相对容易的协作。&lt;/li>
+&lt;li>另外，Wiki可以作为Web版的文档版本管理工具，可以比对修改、恢复历史内容等。&lt;/li>
+&lt;li>Wiki的文档可以很开放，用来做知识库、新闻、个人资料、通讯录、Blog、Life Stream等都很合适，我现在就用Wiki来做网摘（并用&lt;a href="http://blog.94smart.com/cache/2008/0312_1229.html">ROR&lt;/a>写了一个网摘的Wiki代码生成器）。&lt;/li>
+&lt;li>Wiki需要制定现实中的更新规范，比如谁可以编辑这里谁不行之类的。&lt;/li>
+&lt;li>最近总是听见公司同事喊：把某某事情写在Wiki里。我觉得Wiki还是作备忘吧，并不能代替直接、实时的沟通。&lt;/li>
+&lt;li>其实工具就是工具，不止是Wiki、CVS、SVN这些协作相关的，最后还是需要通过各种形式的直接沟通去解决冲突问题。&lt;/li>
+&lt;li>幻想一下，如果在Wiki监视的页面可以通过im提醒就好了，邮件提醒还是比较不及时。&lt;/li>
+&lt;li>我开始看好用Wiki进行内部网建设，因为贡献内容的用户可以非常多，基于工作原因大多数人都需要别人更好的协作、配合，所以贡献的内容可以比较靠谱。&lt;/li>
+&lt;li>……&lt;/li>
+&lt;/ol>
+&lt;p>本流水账可以写完，多亏互联网有twitter的存在~ 还好有twitter，让我可以随时把想法发出来，不用憋很久憋成blog，也许憋到后来都忘光了、没感觉了；还要感谢twitter，因为它丢信息不是特别的频繁，让我可以找到之前记下的内容。&lt;/p></description></item></channel></rss>
