@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+@source "../../layouts/**/*.html";
+@source "../js/**/*.js";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@import "./variables.css";
+@import "./typography.css";
+@import "./components.css";
+@import "./syntax.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  @apply antialiased;
+}
+
+body {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.container-wide {
+  width: 100%;
+  max-width: 90rem;
+  margin-inline: auto;
+}
