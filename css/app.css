@@ -1266,34 +1266,106 @@
 .article-content a:hover {
   text-decoration-color: hsl(var(--foreground));
 }
-.article-content ul, .article-content ol {
+.article-content ul {
   margin-block: 1.5rem;
   padding-left: 1.5rem;
+  list-style: none;
 }
-.article-content li {
-  margin-block: 0.5rem;
+.article-content ul > li {
+  position: relative;
+  padding-left: 1.25rem;
+  margin-block: 0.6rem;
+}
+.article-content ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: hsl(var(--foreground) / 0.35);
+}
+.article-content ul > li:hover::before {
+  background: hsl(var(--foreground) / 0.6);
+}
+.article-content ol {
+  margin-block: 1.5rem;
+  padding-left: 1.5rem;
+  list-style: none;
+  counter-reset: ol-counter;
+}
+.article-content ol > li {
+  position: relative;
+  padding-left: 1.75rem;
+  margin-block: 0.6rem;
+  counter-increment: ol-counter;
+}
+.article-content ol > li::before {
+  content: counter(ol-counter);
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  font-size: 0.85em;
+  font-weight: 700;
+  color: hsl(var(--foreground) / 0.4);
+  font-variant-numeric: tabular-nums;
 }
 .article-content li > ul, .article-content li > ol {
-  margin-block: 0.5rem;
+  margin-block: 0.4rem 0.6rem;
+}
+.article-content li > ul > li::before {
+  width: 4px;
+  height: 4px;
+  background: hsl(var(--foreground) / 0.25);
+}
+.article-content li > ol {
+  counter-reset: ol-nested;
+}
+.article-content li > ol > li {
+  counter-increment: ol-nested;
+}
+.article-content li > ol > li::before {
+  content: counter(ol-nested, lower-alpha);
+  font-size: 0.8em;
 }
 .article-content ul:has(> li > input[type="checkbox"]) {
-  list-style: none;
   padding-left: 0;
+}
+.article-content ul:has(> li > input[type="checkbox"]) > li {
+  padding-left: 0;
+}
+.article-content ul:has(> li > input[type="checkbox"]) > li::before {
+  display: none;
 }
 .article-content li > input[type="checkbox"] {
   margin-right: 0.5rem;
   accent-color: hsl(var(--foreground));
+  transform: scale(1.1);
 }
 .article-content blockquote {
   margin-block: 2rem;
-  border-left: 3px solid hsl(var(--foreground));
-  padding: 1rem 0 1rem 1.5rem;
-  font-size: 1.15rem;
+  border-left: 3px solid hsl(var(--foreground) / 0.6);
+  padding: 1.25rem 0 1.25rem 1.5rem;
+  font-size: 1.1rem;
   line-height: 1.8;
   font-style: italic;
   color: rgb(113 113 122);
   background: hsl(var(--muted));
   border-radius: 0 0.75rem 0.75rem 0;
+}
+.article-content blockquote p:first-child {
+  margin-top: 0;
+}
+.article-content blockquote p:last-child {
+  margin-bottom: 0;
+}
+.article-content blockquote blockquote {
+  margin-block: 1rem;
+  border-left-color: hsl(var(--foreground) / 0.3);
+}
+.article-content blockquote code {
+  font-style: normal;
 }
 .article-content img {
   margin-block: 3rem;
