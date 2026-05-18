@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>App on 不够智能的网志</title><link>/tags/app/</link><description>Recent content in App on 不够智能的网志</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 15 Dec 2021 17:20:59 +0800</lastBuildDate><atom:link href="/tags/app/index.xml" rel="self" type="application/rss+xml"/><item><title>一个记账软件崩溃带来的疑问</title><link>/posts/2021/12/2021-12-15/</link><pubDate>Wed, 15 Dec 2021 17:20:59 +0800</pubDate><guid>/posts/2021/12/2021-12-15/</guid><description>&lt;p&gt;好久没写什么了，就写点最近的纯随笔吧：&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>App on 不够智能的网志</title><link>https://blog.94smart.com/tags/app/</link><description>Recent content in App on 不够智能的网志</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 15 Dec 2021 17:20:59 +0800</lastBuildDate><atom:link href="https://blog.94smart.com/tags/app/index.xml" rel="self" type="application/rss+xml"/><item><title>一个记账软件崩溃带来的疑问</title><link>https://blog.94smart.com/posts/2021/12/2021-12-15/</link><pubDate>Wed, 15 Dec 2021 17:20:59 +0800</pubDate><guid>https://blog.94smart.com/posts/2021/12/2021-12-15/</guid><description>&lt;p&gt;好久没写什么了，就写点最近的纯随笔吧：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;今年早些时候，少数派商店促销的时候买了 MoneyWiz 3 Mac 版的标准买断版（也就是非 MAS 版），结果这周一的时候发现用不了了（提示应用程序无法打开），原来以为是自己胡搞瞎搞、操作不当、把文件搞坏了，于是试图从多个途径（官方网站、少数派商店、网搜结果、Setapp、Homebrew等）下载软件重新安装，结果就是除了 Setapp 其他途径的文件都启动不了。
 &lt;ul&gt;
@@ -12,7 +12,7 @@
 &lt;li&gt;是不是应该去找个什么替代它了？&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>关于订阅制，我有些不太成熟的想法</title><link>/posts/2021/11/2021-11-08/</link><pubDate>Mon, 08 Nov 2021 15:41:13 +0800</pubDate><guid>/posts/2021/11/2021-11-08/</guid><description>&lt;p&gt;来自我用过的 app 和工具软件的转订阅经历：&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>关于订阅制，我有些不太成熟的想法</title><link>https://blog.94smart.com/posts/2021/11/2021-11-08/</link><pubDate>Mon, 08 Nov 2021 15:41:13 +0800</pubDate><guid>https://blog.94smart.com/posts/2021/11/2021-11-08/</guid><description>&lt;p&gt;来自我用过的 app 和工具软件的转订阅经历：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;不止一次的夸赞 &lt;strong&gt;最理想的订阅制转换是 Sketch&lt;/strong&gt;，过期后当前版本可以一直用，相当于是花钱买一段时间的软件升级权限，再次付费后又可以继续升级到最新版，可以跨大版本和小版本。
 &lt;ul&gt;
@@ -32,7 +32,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;对订阅制的不成熟片面想法：&lt;/p&gt;</description></item><item><title>周五碎碎念20210219</title><link>/posts/2021/02/2021-02-19/</link><pubDate>Fri, 19 Feb 2021 16:28:59 +0800</pubDate><guid>/posts/2021/02/2021-02-19/</guid><description>&lt;ul&gt;
+&lt;p&gt;对订阅制的不成熟片面想法：&lt;/p&gt;</description></item><item><title>周五碎碎念20210219</title><link>https://blog.94smart.com/posts/2021/02/2021-02-19/</link><pubDate>Fri, 19 Feb 2021 16:28:59 +0800</pubDate><guid>https://blog.94smart.com/posts/2021/02/2021-02-19/</guid><description>&lt;ul&gt;
 &lt;li&gt;不少 AI 的科技树好像点歪了，什么都想让 AI 去做也不管适不适合，也许这就是所谓的科技发达后遗症。&lt;/li&gt;
 &lt;li&gt;突然觉得我不需要 GTD 工具（比如 Things），提醒有系统自带的提醒事项和日历，总觉得使用场景也越来越少&lt;/li&gt;
 &lt;li&gt;春节假期的时候想临时在手机上编辑一些文字，最终用的是 Taio 和自带的备忘录，笔记和日记软件懒得打开，于是成功地卸载了几个用不太上的 app&lt;/li&gt;
