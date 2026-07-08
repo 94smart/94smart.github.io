@@ -657,171 +657,29 @@
 &lt;p&gt;上次错过的人得赶快了，不知道这次开放多长时间。&lt;/p&gt;
 &lt;p&gt;这次有两种显示版式，在页面左下方有个切换按钮，用来切换三栏式和两栏式的版式。&lt;/p&gt;</description></item><item><title>Prototype1.4.0说明文档showLocalLinks例子有问题</title><link>https://blog.94smart.com/posts/2006/04/693/</link><pubDate>Sun, 16 Apr 2006 16:57:13 +0000</pubDate><guid>https://blog.94smart.com/posts/2006/04/693/</guid><description>&lt;p&gt;链接在这里：&lt;a href="http://www.sergiopereira.com/articles/prototype.js.html#EnumeratingArrays"&gt;http://www.sergiopereira.com/articles/prototype.js.html#EnumeratingArrays&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;这个showLocalLinks例子有问题，在哪个浏览器里都显示不出结果。&lt;/p&gt;
-&lt;div class="code-block" data-code&gt;
-
- &lt;div class="code-header"&gt;
-
- 
- &lt;span class="code-lang"&gt;javascript&lt;/span&gt;
- 
-
- &lt;div class="ml-auto flex items-center gap-2"&gt;
-
- 
-
- &lt;button
- onclick="copyCode(this)"
- class="flex items-center gap-1.5 rounded-md px-2 py-1 text-zinc-500 transition hover:bg-zinc-800 hover:text-zinc-300"
- &gt;
-
- &lt;svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"&gt;
- &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" /&gt;
- &lt;/svg&gt;
-
- &lt;span class="copy-text text-xs"&gt;复制&lt;/span&gt;
-
- &lt;/button&gt;
-
- &lt;/div&gt;
-
- &lt;/div&gt;
-
- {113 3045 &amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; class=&amp;#34;chroma&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-javascript&amp;#34; data-lang=&amp;#34;javascript&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;kd&amp;#34;&amp;gt;function&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;showLocalLinks&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;(&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;paragraph&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;){&amp;lt;/span&amp;gt;
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;paragraph&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;o&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;$&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;(&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;paragraph&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;);&amp;lt;/span&amp;gt;
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;kd&amp;#34;&amp;gt;var&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;links&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;o&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;$A&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;(&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;paragraph&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;.&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;getElementsByTagName&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;(&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;s1&amp;#34;&amp;gt;&amp;amp;#39;a&amp;amp;#39;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;));&amp;lt;/span&amp;gt;
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;c1&amp;#34;&amp;gt;//find links that do not start with &amp;amp;#39;http&amp;amp;#39;
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;kd&amp;#34;&amp;gt;var&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;localLinks&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;o&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;links&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;.&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;findAll&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;(&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;kd&amp;#34;&amp;gt;function&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;(&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;link&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;){&amp;lt;/span&amp;gt;
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;kd&amp;#34;&amp;gt;var&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;start&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;o&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;link&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;.&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;href&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;.&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;substring&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;(&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;mi&amp;#34;&amp;gt;0&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;,&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;mi&amp;#34;&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;);&amp;lt;/span&amp;gt;
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;k&amp;#34;&amp;gt;return&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;start&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;o&amp;#34;&amp;gt;!=&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;s1&amp;#34;&amp;gt;&amp;amp;#39;http&amp;amp;#39;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;;&amp;lt;/span&amp;gt;
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;});&amp;lt;/span&amp;gt;
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;c1&amp;#34;&amp;gt;//now the link texts
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;kd&amp;#34;&amp;gt;var&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;texts&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;o&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;localLinks&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;.&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;pluck&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;(&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;s1&amp;#34;&amp;gt;&amp;amp;#39;innerHTML&amp;amp;#39;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;);&amp;lt;/span&amp;gt;
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;c1&amp;#34;&amp;gt;//get them in a single string
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;kd&amp;#34;&amp;gt;var&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;result&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;o&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;texts&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;.&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;inspect&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;();&amp;lt;/span&amp;gt;
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;alert&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;(&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nx&amp;#34;&amp;gt;result&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;);&amp;lt;/span&amp;gt;
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;}
-
-&lt;/div&gt;
-
-&lt;script&gt;
-if (!window._copyCodeLoaded) {
- window._copyCodeLoaded = true
- window.copyCode = function(btn) {
- var block = btn.closest('[data-code]')
- var code = block.querySelector('code')
- if (!code) return
-
- var text = btn.querySelector('.copy-text')
- var icon = btn.querySelector('svg')
-
- if (navigator.clipboard) {
- navigator.clipboard.writeText(code.textContent).then(function() {
- showCopied(text, icon, btn)
- })
- } else {
- var ta = document.createElement('textarea')
- ta.value = code.textContent
- ta.style.position = 'fixed'
- ta.style.opacity = '0'
- document.body.appendChild(ta)
- ta.select()
- document.execCommand('copy')
- document.body.removeChild(ta)
- showCopied(text, icon, btn)
- }
- }
-
- function showCopied(text, icon, btn) {
- var originalText = text.textContent
- text.textContent = '已复制!'
- btn.classList.add('text-green-400')
- setTimeout(function() {
- text.textContent = originalText
- btn.classList.remove('text-green-400')
- }, 2000)
- }
-}
-&lt;/script&gt;
-&lt;div class="code-block" data-code&gt;
-
- &lt;div class="code-header"&gt;
-
- 
- &lt;span class="code-lang"&gt;html&lt;/span&gt;
- 
-
- &lt;div class="ml-auto flex items-center gap-2"&gt;
-
- 
-
- &lt;button
- onclick="copyCode(this)"
- class="flex items-center gap-1.5 rounded-md px-2 py-1 text-zinc-500 transition hover:bg-zinc-800 hover:text-zinc-300"
- &gt;
-
- &lt;svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"&gt;
- &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" /&gt;
- &lt;/svg&gt;
-
- &lt;span class="copy-text text-xs"&gt;复制&lt;/span&gt;
-
- &lt;/button&gt;
-
- &lt;/div&gt;
-
- &lt;/div&gt;
-
- {101 2531 &amp;lt;div class=&amp;#34;highlight&amp;#34;&amp;gt;&amp;lt;pre tabindex=&amp;#34;0&amp;#34; class=&amp;#34;chroma&amp;#34;&amp;gt;&amp;lt;code class=&amp;#34;language-html&amp;#34; data-lang=&amp;#34;html&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;lt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nt&amp;#34;&amp;gt;p&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;na&amp;#34;&amp;gt;id&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;o&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;s&amp;#34;&amp;gt;&amp;amp;#34;someText&amp;amp;#34;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;This &amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;lt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nt&amp;#34;&amp;gt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;na&amp;#34;&amp;gt;href&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;o&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;s&amp;#34;&amp;gt;&amp;amp;#34;http://othersite.com/page.html&amp;amp;#34;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;text&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;lt;/&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nt&amp;#34;&amp;gt;a&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; has
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;a &amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;lt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nt&amp;#34;&amp;gt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;na&amp;#34;&amp;gt;href&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;o&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;s&amp;#34;&amp;gt;&amp;amp;#34;#localAnchor&amp;amp;#34;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;lot&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;lt;/&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nt&amp;#34;&amp;gt;a&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; of
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;lt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nt&amp;#34;&amp;gt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;na&amp;#34;&amp;gt;href&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;o&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;s&amp;#34;&amp;gt;&amp;amp;#34;#otherAnchor&amp;amp;#34;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;links&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;lt;/&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nt&amp;#34;&amp;gt;a&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;. Some are
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;lt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nt&amp;#34;&amp;gt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;na&amp;#34;&amp;gt;href&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;o&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;s&amp;#34;&amp;gt;&amp;amp;#34;http://wherever.com/page.html&amp;amp;#34;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;external&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;lt;/&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nt&amp;#34;&amp;gt;a&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;and some are &amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;lt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nt&amp;#34;&amp;gt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;na&amp;#34;&amp;gt;href&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;o&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;s&amp;#34;&amp;gt;&amp;amp;#34;#someAnchor&amp;amp;#34;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;local&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;lt;/&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nt&amp;#34;&amp;gt;a&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;lt;/&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nt&amp;#34;&amp;gt;p&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;
-&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;line&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;cl&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;lt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;nt&amp;#34;&amp;gt;input&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;na&amp;#34;&amp;gt;type&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;o&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;s&amp;#34;&amp;gt;button&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;na&amp;#34;&amp;gt;value&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;o&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;s&amp;#34;&amp;gt;&amp;amp;#34;Find Local Links&amp;amp;#34;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;#34;na&amp;#34;&amp;gt;onclick&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;o&amp;#34;&amp;gt;=&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;s&amp;#34;&amp;gt;&amp;amp;#34;showLocalLinks(&amp;amp;#39;someText&amp;amp;#39;)&amp;amp;#34;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#34;p&amp;#34;&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/div&amp;gt;}
-
-&lt;/div&gt;
-
-&lt;script&gt;
-if (!window._copyCodeLoaded) {
- window._copyCodeLoaded = true
- window.copyCode = function(btn) {
- var block = btn.closest('[data-code]')
- var code = block.querySelector('code')
- if (!code) return
-
- var text = btn.querySelector('.copy-text')
- var icon = btn.querySelector('svg')
-
- if (navigator.clipboard) {
- navigator.clipboard.writeText(code.textContent).then(function() {
- showCopied(text, icon, btn)
- })
- } else {
- var ta = document.createElement('textarea')
- ta.value = code.textContent
- ta.style.position = 'fixed'
- ta.style.opacity = '0'
- document.body.appendChild(ta)
- ta.select()
- document.execCommand('copy')
- document.body.removeChild(ta)
- showCopied(text, icon, btn)
- }
- }
-
- function showCopied(text, icon, btn) {
- var originalText = text.textContent
- text.textContent = '已复制!'
- btn.classList.add('text-green-400')
- setTimeout(function() {
- text.textContent = originalText
- btn.classList.remove('text-green-400')
- }, 2000)
- }
-}
-&lt;/script&gt;
-&lt;p&gt;这个例子的意思应该是取出段落里面的本地链接，原理是链接开头不是http的就算，但是段落里面使用的#链接形式，无论在IE还是firefox里，都会被解释为带有http的形式，所以这个例子的结果永远都是空。&lt;/p&gt;</description></item><item><title>toread，用Email做文摘</title><link>https://blog.94smart.com/posts/2006/04/689/</link><pubDate>Thu, 13 Apr 2006 15:54:26 +0000</pubDate><guid>https://blog.94smart.com/posts/2006/04/689/</guid><description>&lt;p&gt;&lt;a href="http://toread.cc/"&gt;&lt;/a&gt;&lt;a href="http://toread.cc/"&gt;&lt;img src="http://cache.lifehacker.com/software/images/2006/04/atodeshoulder_en.gif" alt=""&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;showLocalLinks&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;paragraph&lt;/span&gt;&lt;span class="p"&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;paragraph&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;paragraph&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;links&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;$A&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;paragraph&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getElementsByTagName&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;a&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;//find links that do not start with &amp;#39;http&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;localLinks&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;links&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;findAll&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;link&lt;/span&gt;&lt;span class="p"&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;start&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;link&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;href&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;substring&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nx"&gt;start&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;//now the link texts
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;texts&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;localLinks&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;pluck&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;innerHTML&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;//get them in a single string
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;result&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;texts&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;inspect&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;alert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;result&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;someText&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;This &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt; &lt;span class="na"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;http://othersite.com/page.html&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;text&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; has
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;a &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt; &lt;span class="na"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;#localAnchor&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lot&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; of
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt; &lt;span class="na"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;#otherAnchor&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;links&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;. Some are
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt; &lt;span class="na"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;http://wherever.com/page.html&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;external&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and some are &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt; &lt;span class="na"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;#someAnchor&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;local&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt; &lt;span class="na"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;button&lt;/span&gt; &lt;span class="na"&gt;value&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;Find Local Links&amp;#34;&lt;/span&gt; &lt;span class="na"&gt;onclick&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;showLocalLinks(&amp;#39;someText&amp;#39;)&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这个例子的意思应该是取出段落里面的本地链接，原理是链接开头不是http的就算，但是段落里面使用的#链接形式，无论在IE还是firefox里，都会被解释为带有http的形式，所以这个例子的结果永远都是空。&lt;/p&gt;</description></item><item><title>toread，用Email做文摘</title><link>https://blog.94smart.com/posts/2006/04/689/</link><pubDate>Thu, 13 Apr 2006 15:54:26 +0000</pubDate><guid>https://blog.94smart.com/posts/2006/04/689/</guid><description>&lt;p&gt;&lt;a href="http://toread.cc/"&gt;&lt;/a&gt;&lt;a href="http://toread.cc/"&gt;&lt;img src="http://cache.lifehacker.com/software/images/2006/04/atodeshoulder_en.gif" alt=""&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;toread，一个使用Email做网摘的网站，使用它提供的Bookmarklet可以瞬间把页面内容发送到你的邮箱，然后你可以用收信软件把内容下载下来保存。&lt;/p&gt;</description></item><item><title>你也来一只Web袋鼠吧</title><link>https://blog.94smart.com/posts/2006/04/686/</link><pubDate>Tue, 11 Apr 2006 16:06:33 +0000</pubDate><guid>https://blog.94smart.com/posts/2006/04/686/</guid><description>&lt;p&gt;&lt;a href="http://www.webaroo.com/"&gt;&lt;img src="http://www.webaroo.com/images/logo-shadow.gif" alt=""&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Webaroo，一个离线搜索/浏览工具，我管它叫网页袋鼠。它所提供的功能重点是在离线的情况下也可以搜索，可以像袋鼠的育儿袋一样带着内容到处走，就如它所倡导的&amp;quot;Search unplugged&amp;quot;（搜索不插电/线？）。&lt;/p&gt;</description></item><item><title>我的世界清静了</title><link>https://blog.94smart.com/posts/2006/04/683/</link><pubDate>Sun, 09 Apr 2006 23:55:51 +0000</pubDate><guid>https://blog.94smart.com/posts/2006/04/683/</guid><description>&lt;p&gt;Spam终于被限制住了，我的世界清静了。&lt;/p&gt;
 &lt;p&gt;这一阵Blog上Trackback Spam的来源好像是&lt;a href="http://www.bianyue.com/post/167.html"&gt;bianyue说的群发服务&lt;/a&gt;，真够孙子的。&lt;/p&gt;
